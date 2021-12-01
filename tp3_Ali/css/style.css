@@ -1,0 +1,120 @@
+body{
+    width: 100%; 
+    height: auto;
+    background-color: red;
+    text-align: center;
+}
+
+
+header .entete{
+    background-color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.titre{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 250px;
+}
+
+.panier1{
+    margin-right: -705px;
+}
+
+.h1 h1{
+    font-size: 1rem;
+    margin-top: 55px;
+}
+
+nav{
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+nav ul li{
+    display: inline-block;
+    border: 1px solid darkgrey;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    margin:0 50px;
+    text-align: center;
+}
+
+/******************FIN HEADER*************/
+
+#home{
+    display: flex;
+    justify-content: space-evenly;
+}
+.carrousel{
+    width: 60%;
+}
+
+.home2 figcaption{
+    background-color: rgb(245, 69, 128);
+    color: white; 
+    text-align: center;
+}
+.home2 img{
+    height: 230px;
+    width: 300px;
+}
+
+/*********************FIN CARROUSSEL*************************/
+
+
+
+
+
+
+.middle section{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 200px;
+}
+
+.middle p{
+    font-size: 15px;
+}
+
+.middle2 section{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 100px;
+    margin-right: 120px;
+}
+
+.middle2 p{
+    font-size: 15px;
+}
+
+
+/***********************FIN MIDDLE*********************/
+
+.produit{
+    width: 201px;
+    height: 380px;
+    border: 1px solid black;
+    display: flex;
+}
+
+.produit main{
+    justify-content: space-around;
+}
+
+
+.produit p{
+    text-align: center;
+}
+
+.produit img{
+    width: 200px;
+}
+
+.produit .flex{
+    display: flex;
+}
+
