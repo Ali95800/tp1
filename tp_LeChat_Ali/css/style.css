@@ -1,0 +1,30 @@
+body{
+    font-family: 'Shadows Into Light',cursive;
+    color: white;
+    width: 50%;
+    margin: 0 25%; 
+    text-align: center;
+    font-size: x-large;
+}
+
+.container{
+    background-color: #273878;
+    margin: 10px 0 50px;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #273878;
+    padding: 25px;
+    justify-content: space-between;
+}
+
+.container .photo{
+    margin: 0 40px ;    
+}
+
+.photo p{
+    margin-top: -10px;
+}
+
