@@ -1,49 +1,80 @@
 body{
-    width: 100%; 
-    height: auto;
-    background-color: red;
-    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-
-header .entete{
-    background-color: gray;
+.top{
     display: flex;
     justify-content: space-around;
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: white;
 }
 
-.titre{
+/************************* DEBUT DU HEADER *************************/
+
+header{
     display: flex;
     justify-content: space-between;
-    margin: 0 250px;
+}
+header .haut:first-of-type{
+margin-left: 11em;
+}
+header .haut:first-of-type p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    
 }
 
-.panier1{
-    margin-right: -705px;
+header .haut:nth-child(2){
+display: flex;
+justify-content: flex-end;
+font-size: 10px;
+font-family: Arial, Helvetica, sans-serif;
 }
 
-.h1 h1{
-    font-size: 1rem;
-    margin-top: 55px;
+header .haut:nth-child(2) section p{
+float: left;
+}
+header .haut:nth-child(2) section img{
+    float: left;
+    width: 40px;
+    height: 40px;
+}
+/**************************** FIN DU HEADER **************************/
+
+
+/**************************** DEBUT BAR DE NAVGATION **************************/
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;list-style: none;
+    background-color: rgb(224, 224, 224);
 }
 
-nav{
+nav ul li {
+    /* display: inline-block;
+    word-spacing: 10px; */
+    border-left: 1px solid gray ;
+
+    height: 30px;
+    
+}
+
+nav ul li a{
     text-align: center;
-    background-color: whitesmoke;
+    padding: 20px;
 }
 
-nav ul li{
-    display: inline-block;
-    border: 1px solid darkgrey;
-}
-a{
-    text-decoration: none;
-    color: inherit;
-    margin:0 50px;
-    text-align: center;
+nav ul li a i{
+    border: none;
 }
 
-/******************FIN HEADER*************/
+/**************************** FIN BAR DE NAVIGATION **************************/
+
+
+/**************************** DEBUT DU MAIN **************************/
 
 #home{
     display: flex;
@@ -63,58 +94,123 @@ a{
     width: 300px;
 }
 
-/*********************FIN CARROUSSEL*************************/
+/******* fin du carrousel et des 2 image qui le suivent ********/
 
 
+/******* debut de la suite ********/
+
+/******* zoneInstruction********/
+
+.zoneInstruction{
+margin-left: 7em;
+}
+.zoneInstruction p,
+.zoneInstruction img{
+    float: left;
+}
+.zoneInstruction img:nth-of-type(7){
+    margin-left: 2em;
+}
 
 
+/******* fin zoneInstruction ********/
 
 
-.middle section{
+/******* Produits ********/
+
+.produit1{
     display: flex;
-    justify-content: space-around;
-    margin: 0 200px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    margin: 0 250px;
+
+
 }
-
-.middle p{
-    font-size: 15px;
-}
-
-.middle2 section{
-    display: flex;
-    justify-content: space-around;
-    margin: 0 100px;
-    margin-right: 120px;
-}
-
-.middle2 p{
-    font-size: 15px;
-}
-
-
-/***********************FIN MIDDLE*********************/
-
-.produit{
-    width: 201px;
-    height: 380px;
-    border: 1px solid black;
-    display: flex;
-}
-
-.produit main{
-    justify-content: space-around;
-}
-
-
-.produit p{
+.produit h4{
+    background-color: rgb(245, 69, 128);
+    color: white;
+    width: 10%;
+    margin: 100px;
     text-align: center;
 }
 
-.produit img{
-    width: 200px;
+.produit1 figure p{
+    background-color: gray;
 }
 
-.produit .flex{
+
+.produit1 figcaption{
+    background-color: rgb(255, 255, 255);
+    color: rgb(73, 73, 73); 
+    text-align: center;
+}
+
+.produit1 figure figcaption p{
+    background-color: white;
+    color:rgb(245, 69, 128) ;
+    width: 100%;
+}
+
+.produit1 figure p:nth-child(3){
+    width: 50%;
+    background-color: rgb(73, 73, 73);
+    color: white;
+    text-align: center;
+    float: left;
+}
+.produit1 figure p:nth-child(3) i{
+    color:rgb(245, 69, 128) ;
+
+}
+.produit1 figure p:nth-of-type(2){
+    width: 50%;
+    background-color: rgb(245, 69, 128);
+    color: white;
+    text-align: center;
+    float: left;
+
+}
+.produit1 figure p:nth-child(5){
+    background-color: rgb(141, 141, 141);
+    color: white;
+    text-align: center;
+}
+
+.produit1 figure img{
+    height: 230px;
+    width: 300px;
+}
+
+.produit1 figure{
+    padding-left:5em ;
+}
+
+/******* fin Produit ********/
+
+/******* Aproposdenous ********/
+
+.aproposdenous{
     display: flex;
+
 }
 
+.aproposdenous h4{
+    background-color: rgb(245, 69, 128);
+    color: white;
+    margin: 100px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+.clear{
+    clear: both;
+}
